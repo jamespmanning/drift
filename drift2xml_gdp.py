@@ -27,7 +27,7 @@ def eMOLT_cloud(ldata):# send file to SD machine
         # function to upload a list of files to SD machine
         for filename in ldata:
             # print u
-            session = ftplib.FTP('66.114.154.52', 'huanxin', '123321')
+            session = ftplib.FTP('66.114.154.52', 'xxxxxx', 'xxxxx') # credentials removed
             file = open(filename, 'rb')
             #session.cwd("/BDC")
             #session.cmd("/tracks")
