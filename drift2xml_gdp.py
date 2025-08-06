@@ -5,6 +5,7 @@ Running initially on JiMs primary desktop linux in Summer 2025 (not with rest of
 @author: JiM
 
 Derived from drift2xml.py  but simplified
+Extracts a box 25 to 47N, -81 to -64W for the past 30 days
 """
 import csv
 import sys
